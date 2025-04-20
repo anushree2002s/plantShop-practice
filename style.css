@@ -1,0 +1,18 @@
+/* fonts */
+:root {
+    --primary-font: "Dosis", sans-serif;    
+}
+
+/* colors */
+:root {
+    --primary-color: #70C843;
+    --secondary-color: #fefefe;
+    --tertiary-color: #f2f4f5;
+    --heading-text-color: #303030;
+    --body-text-color: #747681;
+    --footer-text-color: #f5f5f5;
+}
+
+body {
+    font-family: var(--primary-font);
+}
