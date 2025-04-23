@@ -153,3 +153,54 @@ svg.icon {
 .progress-group span {
     font-size: 0.9rem;
 }
+
+/* portfolio section */
+.portfolio-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.portfolio-image {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.portfolio-image:hover img {
+    transform: scale(1.05);
+}
+
+.filter-menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #444;
+    font-weight: 500;
+}
+
+.filter-menu .active {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .filter-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .filter-menu a {
+        margin-bottom: 10px;
+    }
+}
