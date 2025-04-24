@@ -332,3 +332,51 @@ svg.icon {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
+
+/* news section */
+.news-card {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.news-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.news-meta small {
+    font-size: 14px;
+}
+
+/* newsletter section */
+.newsletter-section {
+    background-color: var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.newsletter-section input::placeholder {
+    font-size: 14px;
+    color: var(--heading-text-color);
+}
+
+.newsletter-section form input,
+.newsletter-section form button {
+    height: 45px;
+}
