@@ -147,7 +147,7 @@ svg.icon {
 
 .icon-block p {
     font-size: 0.9rem;
-    color: #6c757d;
+    color: var(--body-text-color);
 }
 
 .progress-group span {
@@ -299,7 +299,7 @@ svg.icon {
 
 .new-arrival .product span {
     font-weight: 600;
-    color: #333;
+    color: var(--body-text-color);
 }
 
 .new-arrival .btn-view {
@@ -345,7 +345,6 @@ svg.icon {
 
 .news-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .news-card h5 {
@@ -416,7 +415,6 @@ svg.icon {
     background-size: cover;
     color: var(--secondary-color);
     padding: 60px 0;
-    font-family: "Arial", sans-serif;
 }
 
 .footer-section .logo {
