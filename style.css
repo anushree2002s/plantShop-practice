@@ -380,3 +380,68 @@ svg.icon {
 .newsletter-section form button {
     height: 45px;
 }
+
+/* form section */
+.contact-section input,
+.contact-section textarea {
+    font-size: 14px;
+}
+
+.contact-section textarea {
+    resize: none;
+}
+
+.contact-section button {
+    font-weight: 500;
+}
+
+.btn-submit {
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+
+.btn-submit:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* footer */
+.footer-section {
+    background: url(images/footer.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--secondary-color);
+    padding: 60px 0;
+    font-family: "Arial", sans-serif;
+}
+
+.footer-section .logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-section .logo span {
+    color: var(--primary-color);
+}
+
+.footer-section a {
+    color: var(--footer-text-color);
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    border-bottom: 1px solid var(--footer-text-color);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--footer-text-color);
+}
